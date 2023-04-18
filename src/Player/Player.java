@@ -7,11 +7,17 @@ public class Player {
     private Team team;
     private static int counter = 0;
 
-    public Player(String name, Team team) {
+//    public Player(String name, Team team) {
+//        this.name = name;
+//        this.team = team;
+//        this.id = counter++;
+//        this.points = points;
+//    }
+
+
+    //Neues Beispiel  mit Konstruktor nur mit Namen
+    public Player(String name) {
         this.name = name;
-        this.team = team;
-        this.id = counter++;
-        this.points = points;
     }
 
     public static int getId() {
