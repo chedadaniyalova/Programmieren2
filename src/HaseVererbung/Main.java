@@ -1,5 +1,7 @@
 package HaseVererbung;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         Hase hasi = new Hase("Hasi");
@@ -21,6 +23,20 @@ public class Main {
         h1.addHase(lola);
 
         h1.hoppelAlle();
+
+
+        //Eine kleine Party
+        System.out.println("\nParty beginnt:");
+        ArrayList<GoesToParty> partyPeope = new ArrayList<>();
+        partyPeope.add(lola);
+        partyPeope.add(gigi);
+        partyPeope.add(new Igel());
+        partyPeope.add(new Hase("Bernhard"));
+
+        for (GoesToParty p: partyPeope){
+            p.party("Karottenwasser", "Karottenkuchen");
+        }
+
 
     }
 
