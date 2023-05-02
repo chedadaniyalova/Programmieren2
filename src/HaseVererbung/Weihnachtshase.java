@@ -2,8 +2,8 @@ package HaseVererbung;
 
 public class Weihnachtshase extends Hase {
 
-    public Weihnachtshase(String name) {
-        super(name);
+    public Weihnachtshase(String name, int alter, int nrCarrots) {
+        super(name, alter, nrCarrots);
     }
 
     public void verteileGeschenke() {

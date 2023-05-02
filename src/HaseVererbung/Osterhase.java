@@ -1,8 +1,8 @@
 package HaseVererbung;
 
 public class Osterhase extends Hase {
-    public Osterhase(String name) {
-        super(name);
+    public Osterhase(String name, int alter, int nrCarrots) {
+        super(name, alter, nrCarrots);
     }
 
     public void versteckeOstereier (){
